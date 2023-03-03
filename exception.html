@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	try{
+		console.log("I am from try block")
+		throw "sending error manually"
+	}
+	catch(E){
+		console.log(E)
+		console.log("U may given wrong spelling of this method")
+	}
+	finally{
+		console.log("i will execute always whether there is an error or not")
+	}
+</script>
+</body>
+</html>

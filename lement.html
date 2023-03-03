@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div id="parent"></div>
+<script type="text/javascript">
+ var inputField=document.createElement("input");
+ inputField.setAttribute("placeholder","Name car")
+ document.getElementById("parent").append(inputField);
+ var paraField=document.createElement("p")
+ paraField.innerHTML="i learned about create element"
+ document.getElementById("parent").append(paraField)
+ var image=document.createElement("img")
+ image.setAttribute("src","https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278__340.jpg")
+ image.setAttribute("width","20%")
+ document.getElementById("parent").append(image)
+</script>
+</body>
+</html>
